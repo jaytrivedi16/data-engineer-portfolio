@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name | Senior Data Engineer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        body { background-color: #030712; color: #f9fafb; }
+        .glass { background: rgba(17, 24, 39, 0.7); backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.1); }
+        .gradient-text { background: linear-gradient(to right, #60a5fa, #a855f7); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    </style>
+</head>
+<body class="font-sans selection:bg-blue-500 selection:text-white">
+
+    <nav class="fixed top-0 w-full z-50 p-6">
+        <div class="max-w-4xl mx-auto glass rounded-2xl px-6 py-3 flex justify-between items-center">
+            <span class="font-bold tracking-tighter text-xl">PORTFOLIO<span class="text-blue-500">.</span></span>
+            <div class="space-x-8 text-sm font-medium text-gray-400">
+                <a href="#about" class="hover:text-white transition">About</a>
+                <a href="#experience" class="hover:text-white transition">Experience</a>
+                <a href="#projects" class="hover:text-white transition">Projects</a>
+                <a href="mailto:your@email.com" class="text-white border-l border-gray-700 pl-8">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="about" class="pt-40 pb-20 px-6 max-w-4xl mx-auto text-center md:text-left">
+        <h2 class="text-gray-400 font-mono mb-4">Hi, my name is</h2>
+        <h1 class="text-5xl md:text-7xl font-extrabold mb-6 tracking-tight">Your Name<span class="text-blue-500">.</span></h1>
+        <h3 class="text-3xl md:text-5xl font-bold text-gray-500 leading-tight mb-8">
+            I build <span class="text-white">robust data systems</span> and scalable cloud architectures.
+        </h3>
+        <p class="text-lg text-gray-400 max-w-2xl mb-10 leading-relaxed">
+            Data Engineer with 3+ years of experience specializing in <span class="text-blue-400">Databricks</span>, <span class="text-blue-400">PySpark</span>, and cloud optimization. I turn complex data challenges into high-performance assets.
+        </p>
+        <div class="flex space-x-4 justify-center md:justify-start">
+            <a href="https://github.com/your-username" class="glass px-6 py-3 rounded-xl hover:bg-gray-800 transition"><i class="fab fa-github mr-2"></i> GitHub</a>
+            <a href="https://linkedin.com/in/your-profile" class="glass px-6 py-3 rounded-xl hover:bg-gray-800 transition"><i class="fab fa-linkedin mr-2"></i> LinkedIn</a>
+        </div>
+    </section>
+
+    <section id="experience" class="py-20 px-6 max-w-4xl mx-auto">
+        <h2 class="text-2xl font-bold mb-12 flex items-center">
+            <span class="text-blue-500 mr-4">01.</span> Experience
+        </h2>
+        <div class="space-y-12">
+            <div class="relative pl-8 border-l border-gray-800">
+                <div class="absolute -left-[5px] top-2 w-2 h-2 rounded-full bg-blue-500"></div>
+                <h4 class="text-xl font-bold">Senior Data Engineer <span class="text-blue-400">@ TechCorp</span></h4>
+                <p class="text-sm text-gray-500 mb-4">2023 — Present</p>
+                <ul class="text-gray-400 space-y-2 text-sm leading-relaxed">
+                    <li>• Led the migration of 50+ legacy pipelines to a <span class="text-gray-200 font-medium">Medallion Architecture</span> on Databricks.</li>
+                    <li>• Optimized high-volume PySpark jobs, resulting in a <span class="text-gray-200 font-medium">30% reduction</span> in cloud compute costs.</li>
+                    <li>• Designed a unified data governance strategy using <span class="text-gray-200 font-medium">Unity Catalog</span>.</li>
+                </ul>
+            </div>
+            </div>
+    </section>
+
+    <section id="projects" class="py-20 px-6 max-w-4xl mx-auto">
+        <h2 class="text-2xl font-bold mb-12 flex items-center">
+            <span class="text-blue-500 mr-4">02.</span> Featured Projects
+        </h2>
+        <div class="grid md:grid-cols-2 gap-6">
+            <div class="glass p-8 rounded-2xl hover:-translate-y-2 transition duration-300">
+                <div class="text-blue-500 mb-4"><i class="fas fa-database text-2xl"></i></div>
+                <h4 class="text-xl font-bold mb-2">Lakehouse Optimizer</h4>
+                <p class="text-gray-400 text-sm mb-6">Automated framework for Z-Ordering and Vacuuming Delta tables to improve query speed by 40%.</p>
+                <div class="flex space-x-3 text-xs font-mono text-blue-300">
+                    <span>PySpark</span><span>Delta Lake</span><span>AWS</span>
+                </div>
+            </div>
+            <div class="glass p-8 rounded-2xl hover:-translate-y-2 transition duration-300">
+                <div class="text-blue-500 mb-4"><i class="fas fa-bolt text-2xl"></i></div>
+                <h4 class="text-xl font-bold mb-2">Streaming Ingestion Engine</h4>
+                <p class="text-gray-400 text-sm mb-6">Real-time Kafka to Redshift pipeline handling 1M+ events per minute with sub-5s latency.</p>
+                <div class="flex space-x-3 text-xs font-mono text-blue-300">
+                    <span>Kafka</span><span>Structured Streaming</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center py-20 text-gray-600 text-xs font-mono tracking-widest uppercase">
+        Built with Tailwind & Passion &copy; 2026
+    </footer>
+
+</body>
+</html>
